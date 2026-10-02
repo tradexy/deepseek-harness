@@ -1,0 +1,5 @@
+# Layer contributed by @tradexy/dsh-bundle-hello. Installed into a profile with:
+#   dsh plugin --profile <name> add /abs/path/to/customizations/hello-bundle
+- insert:
+    - id: hello-command
+      name: '@tradexy/dsh-bundle-hello'
