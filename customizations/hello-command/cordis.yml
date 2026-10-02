@@ -1,0 +1,5 @@
+# Fork-local sample. Load it beside any profile with:
+#   dshdev --patch ./customizations/hello-command/cordis.yml
+- insert:
+    - id: hello-command
+      name: './index.mjs'
