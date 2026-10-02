@@ -1,0 +1,5 @@
+# Fork-local overlay. Load it beside any profile with:
+#   pnpm dsh web --patch ./customizations/hello-plugin/cordis.yml
+- insert:
+    - id: hello-plugin
+      name: './index.mjs'
